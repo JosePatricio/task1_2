@@ -48,7 +48,7 @@ values ('Patient 1 - skin health','xxxx',1,1,'2022-01-17'), ('Patient 1 - skin h
 INSERT INTO user_has_patient  ( id_user, id_patient  ) values ( 4,1 ),(4,2 ),( 4,3 ),(5,1 );
 
 
-delete from patient_assessments
+
 select * from patient_assessments a
 join users b 
 on a.id_patient  =b.id 
