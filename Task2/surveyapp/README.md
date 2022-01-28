@@ -1,4 +1,4 @@
 Installation
 
-yarn
+yarn &&
 react-native run-android
